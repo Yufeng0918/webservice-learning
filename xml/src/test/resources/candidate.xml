@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<PEOPLE>
+	<PERSON PERSONID="E01">
+		<NAME>Tony Blair</NAME>
+		<ADDRESS>10 Downing Street, London, UK</ADDRESS>
+		<TEL>(061) 98765</TEL>
+		<FAX>(061) 98765</FAX>
+		<EMAIL>blair@everywhere.com</EMAIL>
+	</PERSON>
+</PEOPLE>

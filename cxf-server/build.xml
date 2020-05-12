@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<project name="cxf-server" basedir=".">
+    <property name="cxf.home" location ="D:/Program/Dev/apache-cxf-3.1.10"/>
+
+    <path id="cxf.classpath">
+        <fileset dir="${cxf.home}/lib">
+            <include name="*.jar"/>
+        </fileset>
+    </path>
+
+    <target name="cxfWSDLToJavaOrderService">
+        <java classname="org.apache.cxf.tools.wsdlto.WSDLToJava" fork="true">
+            <arg value="-server"/>
+            <arg value="-d"/>
+            <arg value="src/main/java"/>
+            <arg value="-p"/>
+            <arg value="com.dbs.services.order"/>
+            <arg value="-impl"/>
+            <arg value="D:/Workspace/IDEA/webservices/cxf-server/src/main/resources/orderService.wsdl"/>
+            <classpath>
+                <path refid="cxf.classpath"/>
+            </classpath>
+        </java>
+    </target>
+
+    <target name="cxfWSDLToJavaStudentService">
+        <java classname="org.apache.cxf.tools.wsdlto.WSDLToJava" fork="true">
+            <arg value="-server"/>
+            <arg value="-d"/>
+            <arg value="src/main/java"/>
+            <arg value="-p"/>
+            <arg value="com.dbs.services.student"/>
+            <arg value="-impl"/>
+            <arg value="D:/Workspace/IDEA/webservices/cxf-server/src/main/resources/studentService.wsdl"/>
+            <classpath>
+                <path refid="cxf.classpath"/>
+            </classpath>
+        </java>
+    </target>
+
+</project>

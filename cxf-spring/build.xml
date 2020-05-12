@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<project name="cxf-server" basedir=".">
+    <property name="cxf.home" location ="D:/Program/Dev/apache-cxf-3.1.10"/>
+
+    <path id="cxf.classpath">
+        <fileset dir="${cxf.home}/lib">
+            <include name="*.jar"/>
+        </fileset>
+    </path>
+
+    <target name="cxfWSDLToJavaHelloService">
+        <java classname="org.apache.cxf.tools.wsdlto.WSDLToJava" fork="true">
+            <arg value="-client"/>
+            <arg value="-d"/>
+            <arg value="src/main/java"/>
+            <arg value="-p"/>
+            <arg value="com.cxf.client"/>
+            <arg value="http://localhost:8080/cxf-spring/servlet/HelloService?wsdl"/>
+            <classpath>
+                <path refid="cxf.classpath"/>
+            </classpath>
+        </java>
+    </target>
+
+</project>

@@ -1,0 +1,373 @@
+<Confirm>
+	<xmsgID>CCT00000013-1/1</xmsgID>
+	<transactionType>
+		<uniqueID>Client Buy</uniqueID>
+		<direction>Deliver</direction>
+		<typeOfTransaction>ClientTrade</typeOfTransaction>
+	</transactionType>
+	<amend>false</amend>
+	<cancel>false</cancel>
+	<tradeDate>2009-03-10</tradeDate>
+	<tradeTime>18:51:40</tradeTime>
+	<settlementDate>2009-03-12</settlementDate>
+	<terminableOnDemand>false</terminableOnDemand>
+	<nominal>1</nominal>
+	<cashAmount>11</cashAmount>
+	<price>1</price>
+	<priceBasis>CleanPrice</priceBasis>
+	<averagePriceIndicator>false</averagePriceIndicator>
+	<settlementCurrency>
+		<uniqueID>HKD</uniqueID>
+		<iSOCode>HKD</iSOCode>
+	</settlementCurrency>
+	<currency>
+		<uniqueID>HKD</uniqueID>
+		<iSOCode>HKD</iSOCode>
+	</currency>
+	<instrument>
+		<uniqueID>13.XHKG</uniqueID>
+		<description>13.XHKG</description>
+		<ISIN>HK0001000014</ISIN>
+		<currencyOfQuote>
+			<uniqueID>HKD</uniqueID>
+			<iSOCode>HKD</iSOCode>
+		</currencyOfQuote>
+		<issueDate>1980-01-03</issueDate>
+		<sedolCode>1000006</sedolCode>
+		<countryOfResidence>
+			<uniqueID>HK</uniqueID>
+			<description>Hong Kong</description>
+			<isoCode>HK</isoCode>
+			<alertCountryCode>HKG</alertCountryCode>
+		</countryOfResidence>
+		<countryOfMarket>
+			<uniqueID>HK</uniqueID>
+			<description>Hong Kong</description>
+			<isoCode>HK</isoCode>
+			<alertCountryCode>HKG</alertCountryCode>
+		</countryOfMarket>
+		<stockFullName>13.XHKG</stockFullName>
+		<stockCategory>
+			<name>Equity</name>
+			<description>Equity</description>
+			<alertCode>EQU</alertCode>
+		</stockCategory>
+		<stockSubCategory>
+			<name>Ordinary</name>
+			<description>Ordinary</description>
+			<alertCode>AC14</alertCode>
+		</stockSubCategory>
+		<nationalityIndicator>false</nationalityIndicator>
+	</instrument>
+	<tradingInstrument>
+		<uniqueID>13.XHKG</uniqueID>
+		<ISIN>HK0001000014</ISIN>
+		<instrumentID>HK0001000014</instrumentID>
+		<marketID>XHKG</marketID>
+	</tradingInstrument>
+	<countryOfMarket>
+		<uniqueID>HK</uniqueID>
+		<description>Hong Kong</description>
+		<isoCode>HK</isoCode>
+		<alertCountryCode>HKG</alertCountryCode>
+	</countryOfMarket>
+	<accruedAmount>0</accruedAmount>
+	<tradeFees>
+		<tradeFees_item>
+			<chargeCode>
+				<name>SEHK</name>
+				<description>SEHK Fee</description>
+				<chargeType>Statutory</chargeType>
+				<inConsideration>true</inConsideration>
+				<softCommission>false</softCommission>
+				<oasysCode>LOCAL_FEE</oasysCode>
+				<swiftCode>CHAR</swiftCode>
+				<internalCode>int_SEHK</internalCode>
+				<FIXCode>4</FIXCode>
+			</chargeCode>
+			<currency>
+				<uniqueID>HKD</uniqueID>
+				<iSOCode>HKD</iSOCode>
+			</currency>
+			<percentage>0.005</percentage>
+			<currencyValue>0</currencyValue>
+			<value>0</value>
+		</tradeFees_item>
+		<tradeFees_item>
+			<chargeCode>
+				<name>COMM</name>
+				<description>Broker Commission</description>
+				<chargeType>Commission</chargeType>
+				<inConsideration>true</inConsideration>
+				<softCommission>false</softCommission>
+				<oasysCode>CONTR_COMM</oasysCode>
+				<swiftCode>EXEC</swiftCode>
+				<CTMCode>EXEC</CTMCode>
+				<internalCode>int_COMM</internalCode>
+			</chargeCode>
+			<currency>
+				<uniqueID>HKD</uniqueID>
+				<iSOCode>HKD</iSOCode>
+			</currency>
+			<currencyValue>10</currencyValue>
+			<value>10</value>
+		</tradeFees_item>
+		<tradeFees_item>
+			<chargeCode>
+				<name>TLEVY</name>
+				<description>Transaction Levy</description>
+				<chargeType>Statutory</chargeType>
+				<inConsideration>true</inConsideration>
+				<softCommission>false</softCommission>
+				<oasysCode>LOCAL_FEE</oasysCode>
+				<swiftCode>CHAR</swiftCode>
+				<internalCode>int_TLEVY</internalCode>
+				<FIXCode>10</FIXCode>
+			</chargeCode>
+			<currency>
+				<uniqueID>HKD</uniqueID>
+				<iSOCode>HKD</iSOCode>
+			</currency>
+			<percentage>0.004</percentage>
+			<currencyValue>0</currencyValue>
+			<value>0</value>
+		</tradeFees_item>
+		<tradeFees_item>
+			<chargeCode>
+				<name>STAMP</name>
+				<description>Stamp Duty</description>
+				<chargeType>Statutory</chargeType>
+				<inConsideration>true</inConsideration>
+				<softCommission>false</softCommission>
+				<oasysCode>LOCAL_TAX</oasysCode>
+				<swiftCode>CHAR</swiftCode>
+				<CTMCode>STAM</CTMCode>
+				<internalCode>int_STAMP</internalCode>
+				<FIXCode>2</FIXCode>
+			</chargeCode>
+			<currency>
+				<uniqueID>HKD</uniqueID>
+				<iSOCode>HKD</iSOCode>
+			</currency>
+			<percentage>0.1</percentage>
+			<currencyValue>0</currencyValue>
+			<value>0</value>
+		</tradeFees_item>
+	</tradeFees>
+	<totalCharges>10</totalCharges>
+	<totalCommissions>10</totalCommissions>
+	<totalMarketCharges>0</totalMarketCharges>
+	<hardRebate>0</hardRebate>
+	<softRebate>0</softRebate>
+	<hardRebateSettlementCurrency>0</hardRebateSettlementCurrency>
+	<softRebateSettlementCurrency>0</softRebateSettlementCurrency>
+	<hardRebateApplied>false</hardRebateApplied>
+	<softRebateApplied>false</softRebateApplied>
+	<showRebateOnConfirm>false</showRebateOnConfirm>
+	<showRebateOnContract>false</showRebateOnContract>
+	<businessReason>
+		<name>Standard Trade</name>
+		<description>Standard Trade</description>
+	</businessReason>
+	<businessType>Agency</businessType>
+	<netConsideration>11</netConsideration>
+	<settlementConsideration>11</settlementConsideration>
+	<book>
+		<uniqueID>HTIHKAGENCY</uniqueID>
+	</book>
+	<executingEntity>
+		<legalEntity>
+			<uniqueID>HTIHK</uniqueID>
+			<organisation>
+				<uniqueID>HTIHK</uniqueID>
+				<bicCode>HKIHKXHKXXX</bicCode>
+				<isClient>false</isClient>
+				<isReport15a6>false</isReport15a6>
+				<shortName>HTIHK</shortName>
+				<fullLegalName>HTI Securities HK Limited</fullLegalName>
+			</organisation>
+		</legalEntity>
+	</executingEntity>
+	<contractingEntity>
+		<legalEntity>
+			<uniqueID>HTIHK</uniqueID>
+			<organisation>
+				<uniqueID>HTIHK</uniqueID>
+				<bicCode>HKIHKXHKXXX</bicCode>
+				<isClient>false</isClient>
+				<isReport15a6>false</isReport15a6>
+				<shortName>HTIHK</shortName>
+				<fullLegalName>HTI Securities HK Limited</fullLegalName>
+			</organisation>
+		</legalEntity>
+	</contractingEntity>
+	<correspondent>
+		<uniqueID>HTI - correspondent</uniqueID>
+		<organisation>
+			<uniqueID>HTI</uniqueID>
+			<bicCode>HTIXXX11XXX</bicCode>
+			<isClient>false</isClient>
+			<isReport15a6>false</isReport15a6>
+			<shortName>HTI</shortName>
+			<fullLegalName>HTI Securitites Correspondent</fullLegalName>
+		</organisation>
+	</correspondent>
+	<deliveryRisk>
+		<name>DVP</name>
+		<description>Delivery Versus Payment</description>
+	</deliveryRisk>
+	<shortSell>false</shortSell>
+	<principal>1</principal>
+	<grossConsideration>1</grossConsideration>
+	<xmsgCreationDate>2016-01-21</xmsgCreationDate>
+	<xmsgCreationTime>18:51:42</xmsgCreationTime>
+	<dealInstrumentSettlement>
+		<sellerSettlementDetails>
+			<sellerSettlementDetails_item>
+				<accountNumberFromAccount>7689</accountNumberFromAccount>
+				<depositoryBicCode>XHKCHKH1XXX</depositoryBicCode>
+				<depositoryName>Hongkong Securities Clearing Co. Ltd
+				</depositoryName>
+				<depositoryUniqueID>CCAS</depositoryUniqueID>
+				<acName>HTI-HK Domestic</acName>
+				<organisation>HKIHKXHKXXX</organisation>
+				<useGlobalCustodian>false</useGlobalCustodian>
+			</sellerSettlementDetails_item>
+		</sellerSettlementDetails>
+	</dealInstrumentSettlement>
+	<counterInstrumentSettlement>
+		<sellerSettlementDetails>
+			<sellerSettlementDetails_item>
+				<accountNumberFromAccount>7689</accountNumberFromAccount>
+				<depositoryBicCode>XHKCHKH1XXX</depositoryBicCode>
+				<depositoryName>Hongkong Securities Clearing Co. Ltd
+				</depositoryName>
+				<depositoryUniqueID>CCAS</depositoryUniqueID>
+				<acName>HTI-HK Domestic</acName>
+				<organisation>HKIHKXHKXXX</organisation>
+				<useGlobalCustodian>false</useGlobalCustodian>
+			</sellerSettlementDetails_item>
+		</sellerSettlementDetails>
+	</counterInstrumentSettlement>
+	<ourDealSSI>
+		<uniqueID>1</uniqueID>
+		<settlementDetails>
+			<settlementDetails_item>
+				<accountNumberFromAccount>7689</accountNumberFromAccount>
+				<depositoryBicCode>XHKCHKH1XXX</depositoryBicCode>
+				<depositoryName>Hongkong Securities Clearing Co. Ltd
+				</depositoryName>
+				<depositoryUniqueID>CCAS</depositoryUniqueID>
+				<acName>HTI-HK Domestic</acName>
+				<organisation>HKIHKXHKXXX</organisation>
+				<useGlobalCustodian>false</useGlobalCustodian>
+			</settlementDetails_item>
+		</settlementDetails>
+	</ourDealSSI>
+	<tradeCurrency>
+		<iSOCode>HKD</iSOCode>
+	</tradeCurrency>
+	<currency>
+		<uniqueID>HKD</uniqueID>
+		<iSOCode>HKD</iSOCode>
+	</currency>
+	<swiftIndicators>
+		<swiftIndicators_item>
+			<swiftCodeIndicator>
+				<name>SETR</name>
+				<block>E</block>
+				<serialOrder>2</serialOrder>
+			</swiftCodeIndicator>
+			<swiftValueIndicator>TRAD</swiftValueIndicator>
+		</swiftIndicators_item>
+		<swiftIndicators_item>
+			<swiftCodeIndicator>
+				<name>RTGS</name>
+				<block>E</block>
+				<serialOrder>5</serialOrder>
+			</swiftCodeIndicator>
+			<swiftValueIndicator>YRTG</swiftValueIndicator>
+		</swiftIndicators_item>
+	</swiftIndicators>
+	<sender>HaiTong</sender>
+	<receiver>Receiver-Grp1</receiver>
+	<function>NEWM</function>
+	<custodyIndicator>false</custodyIndicator>
+	<contractualSettlementIndicator>true</contractualSettlementIndicator>
+	<settlementMethod>Swift</settlementMethod>
+	<transactionReference>CT00000013</transactionReference>
+	<source>
+		<name>Manual</name>
+		<description>Manual</description>
+	</source>
+	<versionNumber>1</versionNumber>
+	<isBlock>false</isBlock>
+	<isAllocation>false</isAllocation>
+	<ourTradingAccount>
+		<uniqueID>HTIHKTA</uniqueID>
+		<identifyingCode>HTI Securities HK Limited HTI Securities HK Limited
+			(Main)</identifyingCode>
+		<accountCode>TA</accountCode>
+		<accountName>HTI Securities HK Limited (Main)</accountName>
+		<shortName>HTI Securities HK Limited</shortName>
+		<bicCode>HKIHKXHKXXX</bicCode>
+		<countryOfIncorporationISOCode>HK</countryOfIncorporationISOCode>
+		<organisationUniqueID>HTIHK</organisationUniqueID>
+		<organisationShortName>HTIHK</organisationShortName>
+		<organisationFullLegalName>HTI Securities HK Limited
+		</organisationFullLegalName>
+	</ourTradingAccount>
+	<singleEnteredCounterparty>
+		<uniqueID>org11660</uniqueID>
+		<isClient>true</isClient>
+		<isReport15a6>false</isReport15a6>
+		<shortName>org11660</shortName>
+		<fullLegalName>org11660</fullLegalName>
+	</singleEnteredCounterparty>
+	<theirTradingAccount>
+		<uniqueID>TA002</uniqueID>
+		<identifyingCode>org11660 TA002</identifyingCode>
+		<accountCode>TA002</accountCode>
+		<accountName>TA002</accountName>
+		<shortName>TA002</shortName>
+		<oasysID>TA002</oasysID>
+		<countryOfIncorporationISOCode>HK</countryOfIncorporationISOCode>
+		<organisationUniqueID>org11660</organisationUniqueID>
+		<organisationShortName>org11660</organisationShortName>
+		<organisationFullLegalName>org11660</organisationFullLegalName>
+	</theirTradingAccount>
+	<confirmationLink>
+		<medium>
+			<name>Email</name>
+			<description>Email</description>
+		</medium>
+		<instrumentPreference>ISIN</instrumentPreference>
+		<template>
+			<name>Single_Trade_PDF</name>
+		</template>
+		<noBlockConfirm>false</noBlockConfirm>
+		<numberOfCopies>1</numberOfCopies>
+		<address>
+			<contactNames>
+				<contactNames_item>Adrian Hurt</contactNames_item>
+				<contactNames_item>Alan Allen</contactNames_item>
+				<contactNames_item>Alan Bray</contactNames_item>
+			</contactNames>
+			<contactAddress>One International Finance Centre, Floor 12, 1 Harbour
+				View St</contactAddress>
+			<country>
+				<uniqueID>HK</uniqueID>
+				<description>Hong Kong</description>
+				<isoCode>HK</isoCode>
+				<alertCountryCode>HKG</alertCountryCode>
+			</country>
+			<telephoneNumber>(852) 2522 1122</telephoneNumber>
+			<email>John@gbst.com;Peter@gbst.com;Andy@gbst.com;Sue@gbst.com;Kay@gbst.com
+			</email>
+			<faxNumber>(852) 2295 3106</faxNumber>
+			<town>Honk Kong</town>
+		</address>
+		<copy>false</copy>
+	</confirmationLink>
+	<resubmitted>false</resubmitted>
+</Confirm>
